@@ -48,7 +48,8 @@ against a black background. Assuming you have that, move onto the next task.
 
 ## Game Development
 
-Now that everything is setup, you can start with developing the game.
+Now that everything is setup, you can start with developing the game. The file
+you are editing is `src/pong/main.py`.
 
 ## Read the Code
 
