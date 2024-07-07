@@ -1,7 +1,7 @@
 # Pong
 
-This code is a partially done version of the classic game "pong". Your mission
-is to create a fully working one-player version that:
+This code is a partially completed version of the classic game "pong". Your
+mission is to create a fully working one-player version that:
 
 1. Has the ball move up/down and left/right
 2. Has the ball bounce off the top, bottom, and right walls
@@ -15,12 +15,12 @@ is to create a fully working one-player version that:
 The only thing that you _should_ need to do to get this project up and running
 is:
 
-### 0. Open the project's workspace
+### 0. Open the Project's Workspace
 
 Open `vscode` and select `File` -> `Open Workspace from File`. Then, select the
 `pong.code-workspace` file within this project folder.
 
-### 1. Install necessary extensions
+### 1. Install Necessary Extensions
 
 On the left-most side of the `vscode` window, select the "Extensions" tab (four
 small squares making a larger square) and install the following extensions:
@@ -30,9 +30,9 @@ small squares making a larger square) and install the following extensions:
 - `Black Formatter`
 - `isort`
 
-> Note: be careful to select only the "Microsoft approved" extensions.
+> Note: be careful to select **only** the "Microsoft approved" extensions.
 
-### 2. Install necessary Python modules
+### 2. Install Necessary Python Modules
 
 Open the terminal window by selecting `Terminal` -> `New Terminal`. Then,
 install all the required libraries by typing:
@@ -41,10 +41,12 @@ install all the required libraries by typing:
 pip3 install pytest pygame
 ```
 
-### 3. Verify it runs
+### 3. Verify it Runs
 
 You now should be able to run the program and see a white ball and paddle set
-against a black background. Assuming you have that, move onto the next task.
+against a black background. To do this, open the `src/pong/main.py` file and
+click the "play button" at the top right. Assuming you see the ball and the
+paddle, move onto the next task.
 
 ## Game Development
 
