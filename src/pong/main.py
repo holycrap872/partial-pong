@@ -37,7 +37,7 @@ def play_game(screen, width, height):
         if keys[pygame.K_UP]:
             paddle_y = paddle_y - 5
 
-        # Move characters
+        # Move non-player characters
         ball_x += ball_x_speed
         ball_y += ball_y_speed
 
